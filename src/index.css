@@ -122,15 +122,18 @@ p {
 }
 
 .image{
-  width: 65%;
+  width: 100%;
   text-align: right;
   margin: auto;
 }
 
 img {
   margin: 0;
-  height: 90vh;
-  width: 95%;
+  height: 75vh;
+  width: 70%;
+  position: absolute;
+  top: 80%;
+  left: 0;
 }
 
 .completed {
@@ -153,19 +156,23 @@ img {
 .container-bottom{
   padding-top: 20px;
   display: flex;
+  justify-content: space-between;
 }
 
 .Project_invest__3H6lj {
   grid-area: top-invest;
+  
 }
 
 .General_default_paper__2LsAt {
-  margin: 0 16px 28px;
+  margin: 0 0px 0px;
   padding: 16px;
   background-color: #fff;
-  box-shadow: 0 1px 16px 0 rgb(0 0 0 / 10%);
-  border-radius: 4px;
+  box-shadow: 0 1px 16px 0 rgb(0 0 0 / 50%);
+  border-radius: 10px;
   position: relative;
+  width: 100%;
+  
 }
 
 
@@ -178,18 +185,20 @@ h1 .General_default_paper_title__3CDbu {
 }
 
 .General_default_paper_content__3q7XG {
-  color: #333;
+  fill: #fff;
   font-size: 16px;
   line-height: 170%;
   font-weight: 300;
   word-break: break-word;
   text-align: left;
+  padding-top: 50px;
 }
 
 
 .General_default_paper_primary__1cr0R {
   background-color: #304060;
   color: #fff!important;
+  height: 80vh;
 }
 
 .Project_InvestmentDetails_grid__2RWLc {
@@ -256,10 +265,6 @@ h1 .General_default_paper_title__3CDbu {
   flex-basis: 50%;
 }
 
-.Project_projectInvestmentDetailsItem__1zjeJ {
-  text-align: center;
-  padding: 16px 0;
-}
 
 .General_LabelPaper_content__2ZMNh {
   font-weight: 300;
@@ -275,4 +280,7 @@ h1 .General_default_paper_title__3CDbu {
   padding: 5.33333px 0;
   max-height: 24px;
   color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+
